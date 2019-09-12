@@ -47,6 +47,3 @@ def print_welcome():
     ready_to_play = ready_to_play.lower()
     if ready_to_play.__contains__("yes") or ready_to_play.__contains__("да"):
         start_the_game()
-
-
-print_welcome()
